@@ -1,1 +1,9 @@
-/* Your code here */
+.main_nav {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+}

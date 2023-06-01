@@ -1,1 +1,71 @@
-/* Your code here */
+.interests_links {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    border-top: 1px lightgrey solid;
+    border-bottom: 1px lightgrey solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.orange_space {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.orange_space>img {
+    height: 50px;
+    width: 50px;
+}
+
+.story_title {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.story {
+    font-size: 12px;
+}
+
+.stocks_space {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.stocks_space,
+.weather_space {
+    border-left: 1px lightgrey solid;
+    border-right: 1px lightgrey solid;
+}
+
+.interest_space {
+    border-right: 1px lightgrey solid;
+}
+
+.temperature_space {
+    border-left: 1px lightgrey solid;
+    align-self: center;
+}
+
+.stock_price {
+    color: green;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px lightgrey solid;
+    width: 100%;
+}
+
+.stock_name {
+    padding-left: 10px;
+    border-bottom: 1px lightgrey solid;
+    width: 100%;
+}

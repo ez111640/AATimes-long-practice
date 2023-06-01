@@ -1,1 +1,29 @@
-/* Your code here */
+.change_lives {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "pink_section pink_section"
+        "middle1 middle2"
+        "bottom1 bottom2";
+}
+
+.pink_title {
+    grid-area: "pink_section";
+}
+
+.pink_left {
+    grid-area: "middle1";
+}
+
+.pink_right {
+    grid-area: "middle2";
+}
+
+.blue_left {
+    grid-area: "bottom1";
+}
+
+.blue_right {
+    grid-area: "bottom2";
+}
